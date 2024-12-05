@@ -68,9 +68,9 @@ class Game extends Component{
                 <div>
                     <h1>Rock - Paper - Scissors</h1>
                     <div>
-                        <button onClick={ () => this.decision("ROCK")}>Rock</button>
-                        <button onClick={ () => this.decision("PAPER")}>Paper</button>
-                        <button onClick={ () => this.decision("SCISSORS")}>Scissors</button>
+                        <button onClick={ () => this.decision("ROCK")}><i class="fa-regular fa-hand-back-fist"></i></button>
+                        <button onClick={ () => this.decision("PAPER")}><i class="fa-regular fa-hand"></i></button>
+                        <button onClick={ () => this.decision("SCISSORS")}><i class="fa-regular fa-hand-scissors"></i></button>
                     </div>
                 </div>
 
